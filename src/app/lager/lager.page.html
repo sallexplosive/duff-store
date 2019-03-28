@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lager</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card>
+    <ion-card-header>
+        <ion-img src="assets/lager.png"></ion-img>
+    </ion-card-header>
+      <ion-card-content>
+          <h1> Lager</h1>
+          <p>Leve, Saborosa, Deliciosa. Beba Gelado </p>
+          <ion-button color="warning" [routerLink]="['/puro-malte']"> Puro Malte</ion-button>
+    <ion-button color="danger" [routerLink]="['/pilsen']">Pilsen</ion-button>
+    <ion-button [routerLink]="['/menu']"> Menu </ion-button>
+      </ion-card-content>         
+  </ion-card>
+
+</ion-content>
